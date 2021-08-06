@@ -14,8 +14,8 @@ class CounterController extends SimpleNotifier {
   }
 
   @override
-  void onDispose() {
+  void dispose() {
     print("onDispose CounterController");
-    super.onDispose();
+    super.dispose();
   }
 }

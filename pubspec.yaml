@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  flutter_meedu: "^3.0.8"
+  flutter_meedu: "^4.2.0"
   equatable: "^2.0.2"
   dio: ^4.0.0
   flutter_secure_storage: ^4.2.0

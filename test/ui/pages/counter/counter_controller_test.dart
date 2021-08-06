@@ -17,7 +17,7 @@ void main() {
     controller.increment();
     controller.increment();
     expect(controller.counter, 3);
-    controller.onDispose();
+    controller.dispose();
     expect(controller.disposed, true);
   });
 }

@@ -18,6 +18,7 @@ class SplashController extends SimpleNotifier {
   String? get routeName => _routeName;
 
   Future<void> _init() async {
+    print("🔥 splash controller created");
     final isLogged = (await _authenticationRepository.accessToken) != null;
 
     if (isLogged) {
